@@ -1,7 +1,13 @@
 {
-  "name": "rap2hpoutre/fast-excel",
+  "name": "emirhanbalkac/fast-excel",
   "type": "library",
-  "keywords": ["laravel", "excel", "csv", "xls", "xlsx"],
+  "keywords": [
+    "laravel",
+    "excel",
+    "csv",
+    "xls",
+    "xlsx"
+  ],
   "description": "Fast Excel import/export for Laravel",
   "require": {
     "php": "^7.1|^8.0",
@@ -28,7 +34,7 @@
   "extra": {
     "laravel": {
       "providers": [
-          "Rap2hpoutre\\FastExcel\\Providers\\FastExcelServiceProvider"
+        "Rap2hpoutre\\FastExcel\\Providers\\FastExcelServiceProvider"
       ]
     }
   },
